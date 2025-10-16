@@ -1,8 +1,7 @@
-package creational.singleton.synchronize;
+package creational.singleton.billPugh;
+
 
 public class SingletonTest {
-
-
     public static void main(String[] args) {
         God god = God.getInstance();
         god.setPayambarNumber(124000);
@@ -16,7 +15,5 @@ public class SingletonTest {
         System.out.println("the only reference in memory space for one god->" + god);
         System.out.println("the number of prophet->" + god.getPayambarNumber());
     }
-
-    // tread safe
 
 }
